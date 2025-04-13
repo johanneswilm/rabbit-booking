@@ -1,0 +1,139 @@
+.rabbit-booking-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rabbit-booking-form-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="number"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.radio-group {
+    margin-bottom: 5px;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.calculated-info {
+    background-color: #e9f7fe;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.summary-container {
+    margin-top: 10px;
+}
+
+.total-price {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #0073aa;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #005177;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.booking-confirmation {
+    text-align: center;
+}
+
+.booking-details {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.payment-info {
+    background-color: #e9f7fe;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.qr-code {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.qr-code img {
+    max-width: 200px;
+    height: auto;
+}
+
+.booking-note {
+    font-style: italic;
+    color: #666;
+}
+
+/* Error styling */
+.error {
+    border-color: #dc3545 !important;
+}
+
+@media (max-width: 600px) {
+    .rabbit-booking-form-container {
+        padding: 15px;
+    }
+}
