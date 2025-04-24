@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rabbit Booking System\n"
+"POT-Creation-Date: 2023-08-25 12:00+0200\n"
+"PO-Revision-Date: 2023-08-25 12:00+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: public/views/booking-form.php:2
+msgid "Book Rabbit Boarding"
+msgstr "Boka kaninpensionat"
+
+#: public/views/booking-form.php:7
+msgid "Your Name"
+msgstr "Ditt namn"
+
+#: public/views/booking-form.php:12
+msgid "Email Address"
+msgstr "E-postadress"
+
+#: public/views/booking-form.php:17
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: public/views/booking-form.php:22
+msgid "Drop-off Date"
+msgstr "Inlämningsdatum"
+
+#: public/views/booking-form.php:27
+msgid "Pick-up Date"
+msgstr "Upphämtningsdatum"
+
+#: public/views/booking-form.php:32
+msgid "Number of Rabbits"
+msgstr "Antal kaniner"
+
+#: public/views/booking-form.php:37
+msgid "Cage Preference"
+msgstr "Burpreferens"
+
+#: public/views/booking-form.php:39
+msgid "Keep rabbits together (if possible)"
+msgstr "Håll kaniner tillsammans (om möjligt)"
+
+#: public/views/booking-form.php:43
+msgid "Individual cages"
+msgstr "Individuella burar"
+
+#: public/views/booking-form.php:48
+msgid "Cage Type"
+msgstr "Burtyp"
+
+#: public/views/booking-form.php:63
+msgid "Booking Summary"
+msgstr "Bokningsöversikt"
+
+#: public/views/booking-form.php:65
+msgid "Number of cages needed:"
+msgstr "Antal burar som behövs:"
+
+#: public/views/booking-form.php:66
+msgid "Number of days:"
+msgstr "Antal dagar:"
+
+#: public/views/booking-form.php:67
+msgid "Price per day:"
+msgstr "Pris per dag:"
+
+#: public/views/booking-form.php:68
+msgid "Total price:"
+msgstr "Totalt pris:"
+
+#: public/views/booking-form.php:75
+msgid "Check Availability"
+msgstr "Kontrollera tillgänglighet"
+
+#: public/views/booking-form.php:76
+msgid "Book Now"
+msgstr "Boka nu"
+
+# Additional translations for confirmation and emails
+msgid "Booking Confirmation"
+msgstr "Bokningsbekräftelse"
+
+msgid "Thank you for your booking!"
+msgstr "Tack för din bokning!"
+
+msgid "Your booking reference is:"
+msgstr "Din bokningsreferens är:"
+
+msgid "Booking Details"
+msgstr "Bokningsdetaljer"
+
+msgid "Payment Information"
+msgstr "Betalningsinformation"
+
+msgid "Please pay via Swish to complete your booking:"
+msgstr "Vänligen betala via Swish för att slutföra din bokning:"
+
+msgid "Swish Number:"
+msgstr "Swish-nummer:"
+
+msgid "Amount:"
+msgstr "Belopp:"
+
+msgid "Message:"
+msgstr "Meddelande:"
+
+msgid "Scan this QR code with your Swish app:"
+msgstr "Skanna denna QR-kod med din Swish-app:"
+
+msgid "A confirmation email with all details has been sent to your email address."
+msgstr "Ett bekräftelsemail med alla detaljer har skickats till din e-postadress."
