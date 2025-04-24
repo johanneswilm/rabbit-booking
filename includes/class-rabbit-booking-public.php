@@ -220,7 +220,7 @@ public function submit_rabbit_booking() {
 
         // Generate QR code URL for Swish payment
         $swish_data = "C{$swish_number};{$total_price};{$swish_message};0";
-        $qr_code_url = 'https://chart.googleapis.com/chart?cht=qr&chs=250x250&chl=' . urlencode($swish_data);
+        $qr_code_url = 'https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=' . urlencode($swish_data);
 
         // Prepare confirmation HTML
         $confirmation_html = '

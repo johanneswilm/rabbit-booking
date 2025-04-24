@@ -14,6 +14,12 @@ if (!defined('WPINC')) {
     die;
 }
 
+// Load plugin text domain for translations
+function rabbit_booking_load_textdomain() {
+    load_plugin_textdomain('rabbit-booking', false, dirname(plugin_basename(__FILE__)) . '/languages/');
+}
+add_action('plugins_loaded', 'rabbit_booking_load_textdomain');
+
 // Define plugin constants
 define('RABBIT_BOOKING_VERSION', '1.0.0');
 define('RABBIT_BOOKING_PLUGIN_DIR', plugin_dir_path(__FILE__));
